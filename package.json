@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "API LLIX Bot",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.12.3",
+    "express-fileupload": "^1.2.0",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4",
+    "swagger-express-mw": "^0.7.0",
+    "swagger-param-parser": "^1.0.3"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "swagger project test"
+  }
+}
